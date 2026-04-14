@@ -20,7 +20,7 @@ namespace FluentIcons.FluentAvalonia
         private TextLayout? _textLayout;
 
         public static readonly StyledProperty<double> FontSizeProperty =
-            TextElement.FontSizeProperty.AddOwner<FontIcon>();
+            TextElement.FontSizeProperty.AddOwner<FAFontIcon>();
 
         public static readonly StyledProperty<Symbol> SymbolProperty =
             AvaloniaProperty.Register<SymbolIcon, Symbol>(nameof(Symbol), Symbol.Home);

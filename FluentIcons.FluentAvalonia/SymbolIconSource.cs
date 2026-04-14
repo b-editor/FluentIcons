@@ -11,9 +11,9 @@ using Symbol = FluentIcons.Common.Symbol;
 namespace FluentIcons.FluentAvalonia
 {
     [TypeConverter(typeof(SymbolIconSourceConverter))]
-    public class SymbolIconSource : PathIconSource
+    public class SymbolIconSource : FAPathIconSource
     {
-        private static readonly IGlyphTypeface _typeface = new Typeface("avares://FluentIcons.FluentAvalonia/Fonts#FluentSystemIcons-Resizable").GlyphTypeface;
+        private static readonly GlyphTypeface _typeface = new Typeface("avares://FluentIcons.FluentAvalonia/Fonts#FluentSystemIcons-Resizable").GlyphTypeface;
 
         public static readonly StyledProperty<Symbol> SymbolProperty = SymbolIcon.SymbolProperty.AddOwner<SymbolIconSource>();
         public static readonly StyledProperty<bool> IsFilledProperty = SymbolIcon.IsFilledProperty.AddOwner<SymbolIconSource>();
@@ -57,7 +57,7 @@ namespace FluentIcons.FluentAvalonia
         private void InvalidateData()
         {
             var codepoint = Symbol.ToChar(IsFilled);
-            var glyphRun = new GlyphRun(_typeface, FontSize, new[] { codepoint }, new[] { _typeface.GetGlyph(codepoint) });
+            var glyphRun = new GlyphRun(_typeface, FontSize, new[] { codepoint }, new[] { _typeface.CharacterToGlyphMap[codepoint] });
             base.Data = glyphRun.BuildGeometry();
         }
 
