@@ -22,9 +22,5 @@ jobs:
           token: ${{ secrets.TOKEN }}
       - name: Update
         run: ./Invoke-Update.ps1
-      - name: Disable recursive submodule push
-        run: git config push.recurseSubmodules no
       - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          tags: true
+        run: git push --recurse-submodules=no --follow-tags origin HEAD:${{ github.ref_name }}
