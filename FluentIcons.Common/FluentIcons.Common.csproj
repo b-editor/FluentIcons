@@ -1,23 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <VersionPrefix>1.1.224</VersionPrefix>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <Description>A shared library for FluentUI System Icons wrapper.</Description>
-    <Authors>davidxuang</Authors>
+    <Authors>b-editor</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Fluent;UI;Icon</PackageTags>
-    <RepositoryUrl>https://github.com/davidxuang/FluentIcons</RepositoryUrl>
+    <RepositoryUrl>https://github.com/b-editor/FluentIcons</RepositoryUrl>
+    <PackageId>Beutl.FluentIcons.Common</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <InternalsVisibleTo Include="FluentIcons.Avalonia" />
     <InternalsVisibleTo Include="FluentIcons.FluentAvalonia" />
-    <InternalsVisibleTo Include="FluentIcons.WPF" />
   </ItemGroup>
 
   <ItemGroup>
