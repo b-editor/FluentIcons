@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net10.0</TargetFrameworks>
-    <VersionPrefix>1.1.324</VersionPrefix>
+    <VersionPrefix>react-icons-atomic-webpack-loader@0.0.1</VersionPrefix>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <Description>FluentUI System Icons wrapper for FluentAvalonia.</Description>
