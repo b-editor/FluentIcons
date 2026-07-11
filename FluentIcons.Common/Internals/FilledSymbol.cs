@@ -2855,5 +2855,8 @@ namespace FluentIcons.Common.Internals
         ZoomFit = 0xF60C,
         ZoomIn = 0xF60E,
         ZoomOut = 0xF610,
+        ClipboardMarkdown = 0xF612,
+        DatabaseSettings = 0xF614,
+        DoorAdd = 0xF616,
     }
 }
