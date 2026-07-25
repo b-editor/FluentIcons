@@ -2810,6 +2810,8 @@ namespace FluentIcons.Common
         ClipboardMarkdown = 0xF613,
         DatabaseSettings = 0xF615,
         DoorAdd = 0xF617,
+        ColorOff = 0xF619,
+        LinkOff = 0xF61B,
         BookDefault = 0xE24C,
         FlagPride = 0xE8BE,
         FlagPrideIntersexInclusiveProgress = 0xE8BF,

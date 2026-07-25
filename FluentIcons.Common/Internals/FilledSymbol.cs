@@ -2858,5 +2858,7 @@ namespace FluentIcons.Common.Internals
         ClipboardMarkdown = 0xF612,
         DatabaseSettings = 0xF614,
         DoorAdd = 0xF616,
+        ColorOff = 0xF618,
+        LinkOff = 0xF61A,
     }
 }
