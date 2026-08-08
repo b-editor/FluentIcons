@@ -2860,5 +2860,8 @@ namespace FluentIcons.Common.Internals
         DoorAdd = 0xF616,
         ColorOff = 0xF618,
         LinkOff = 0xF61A,
+        CalendarAgendaClock = 0xF61C,
+        FolderDismiss = 0xF61E,
+        OrientationPortrait = 0xF620,
     }
 }
