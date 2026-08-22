@@ -2863,5 +2863,11 @@ namespace FluentIcons.Common.Internals
         CalendarAgendaClock = 0xF61C,
         FolderDismiss = 0xF61E,
         OrientationPortrait = 0xF620,
+        AgentsPerson = 0xF622,
+        Autopilot = 0xF624,
+        FilmstripArrowUp = 0xF626,
+        FilmstripGlobe = 0xF628,
+        PanelLeftTall = 0xF62A,
+        TableSelectRange = 0xF62C,
     }
 }
