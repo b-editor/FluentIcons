@@ -2869,5 +2869,13 @@ namespace FluentIcons.Common.Internals
         FilmstripGlobe = 0xF628,
         PanelLeftTall = 0xF62A,
         TableSelectRange = 0xF62C,
+        ChannelArrowRight = 0xF62E,
+        Cowork = 0xF630,
+        FlowArrow = 0xF632,
+        HandMultipleStack = 0xF634,
+        LightbulbSparkle = 0xF636,
+        Omega = 0xF638,
+        OptionsSpeaker = 0xF63A,
+        SlideArrowForward = 0xF63C,
     }
 }
