@@ -2877,5 +2877,8 @@ namespace FluentIcons.Common.Internals
         Omega = 0xF638,
         OptionsSpeaker = 0xF63A,
         SlideArrowForward = 0xF63C,
+        CircleImageOff = 0xF63E,
+        KeyboardMouse = 0xF640,
+        KeyboardMouseOff = 0xF642,
     }
 }
