@@ -2880,5 +2880,8 @@ namespace FluentIcons.Common.Internals
         CircleImageOff = 0xF63E,
         KeyboardMouse = 0xF640,
         KeyboardMouseOff = 0xF642,
+        CircleMultipleConcentricDashes = 0xF644,
+        LayoutInfographicTwoSparkle = 0xF646,
+        PlugPuzzle = 0xF648,
     }
 }
